@@ -12,7 +12,7 @@ import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/RealStar">
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
