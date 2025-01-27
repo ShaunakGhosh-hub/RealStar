@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Redirect,
 } from 'react-router-dom'
 
 import './style.css'
@@ -17,7 +16,6 @@ const App = () => {
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
-        <Redirect to="**" />
       </Switch>
     </Router>
   )
