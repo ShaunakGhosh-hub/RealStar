@@ -19,10 +19,10 @@ const Home = (props) => {
       <section className="home-hero">
         <header className="home-header10">
           <header data-thq="thq-navbar" className="home-navbar">
-            <img alt="image" src="/swan.jpg" className="home-branding1" />
+            <img alt="image" src="/RealStar/swan.jpg" className="home-branding1" />
             <div data-thq="thq-burger-menu" className="home-burger-menu">
               <div className="home-hamburger">
-                <img alt="image" src="/hamburger.svg" className="home-icon10" />
+                <img alt="image" src="/RealStar/hamburger.svg" className="home-icon10" />
               </div>
             </div>
             <div data-thq="thq-mobile-menu" className="home-mobile-menu">
@@ -79,10 +79,10 @@ const Home = (props) => {
           </header>
         </header>
         <video
-          src="/Real.mp4"
+          src="/RealStar/Real.mp4"
           loop
           muted
-          poster="/3769966-hd_1920_1080_25fps.mp4"
+          poster="/RealStar/Real.mp4"
           preload="auto"
           autoPlay
           playsInline
@@ -645,7 +645,7 @@ new BlazeSlider(el, {
         <div className="home-content37">
           <div className="home-main">
             <div className="home-branding2">
-              <img alt="image" src="/swan.jpg" className="home-image20" />
+              <img alt="image" src="/RealStar/swan.jpg" className="home-image20" />
               <span className="home-text87">
                 Get to your dream house with us..
                 <span
@@ -724,7 +724,7 @@ new BlazeSlider(el, {
               © ShaunakGhosh-Hub 2024  - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button6 button">
-              <img alt="image" src="/arrow.svg" className="home-image21" />
+              <img alt="image" src="/RealStar/arrow.svg" className="home-image21" />
             </button>
           </div>
         </div>
